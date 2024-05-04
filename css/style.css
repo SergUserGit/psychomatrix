@@ -32,6 +32,7 @@ p {
   letter-spacing: 0.1em;
   color: #3f478d;
   margin-bottom: 37px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .date-title {
@@ -40,6 +41,7 @@ p {
   letter-spacing: 0.1em;
   color: #4f37b1;
   margin-bottom: 28px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .input-date {
@@ -52,6 +54,7 @@ p {
   cursor: pointer;
   padding: 15px 108px 15px 108px;
   margin-bottom: 38px;
+  font-family: "Montagu Slab", sans-serif;
 }
 
 .container {
@@ -79,6 +82,7 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   padding: 22px 95px 22px 95px;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-two {
@@ -89,6 +93,7 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   padding: 22px 70px 22px 70px;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-three {
@@ -99,6 +104,7 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   padding: 22px 95px 22px 95px;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-four {
@@ -109,6 +115,7 @@ body {
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-five {
@@ -118,6 +125,7 @@ body {
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-six {
@@ -127,6 +135,7 @@ body {
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-seven {
@@ -136,6 +145,7 @@ body {
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-eight {
@@ -145,6 +155,7 @@ body {
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
+  font-family: "Lilita One", sans-serif;
 }
 
 .cell-nine {
@@ -155,6 +166,7 @@ body {
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
+  font-family: "Lilita One", sans-serif;
 }
 
 .main-wrapper {
@@ -173,4 +185,5 @@ body {
   border: none;
   cursor: pointer;
   padding: 10px 66px 10px 66px;
+  font-family: "Montagu Slab", sans-serif;
 }
