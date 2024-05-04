@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 75px;
+  letter-spacing: 0.1em;
+  color: #3f478d;
+  margin-bottom: 37px;
+}
+
+.date-title {
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  color: #4f37b1;
+  margin-bottom: 28px;
+}
+
+.input-date {
+  border: none;
+  background: rgba(96, 24, 67, 0.4);
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: 0.1em;
+  color: rgba(69, 137, 84, 0.88);
+  cursor: pointer;
+  padding: 15px 108px 15px 108px;
+  margin-bottom: 38px;
+}
+
+.container {
+  max-width: 713px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px 0 10px;
+}
+
+body {
+  background: #d9d9d9;
+}
+
+.table-num {
+  border: 1px solid #161a88;
+  border-collapse: collapse;
+  margin-bottom: 45px;
+}
+
+.cell-one {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+  padding: 22px 95px 22px 95px;
+}
+
+.cell-two {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+  padding: 22px 70px 22px 70px;
+}
+
+.cell-three {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+  padding: 22px 95px 22px 95px;
+}
+
+.cell-four {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 111%;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+}
+
+.cell-five {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+}
+
+.cell-six {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+}
+
+.cell-seven {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+}
+
+.cell-eight {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+}
+
+.cell-nine {
+  border: 1px solid #161a88;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 101%;
+  letter-spacing: 0.1em;
+  color: rgba(54, 76, 195, 0.9);
+  text-align: center;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-calc {
+  font-weight: 700;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  color: #e1d9e7;
+  border-radius: 12px;
+  background: rgba(136, 116, 194, 0.64);
+  border: none;
+  cursor: pointer;
+  padding: 10px 66px 10px 66px;
+}
