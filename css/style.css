@@ -28,40 +28,147 @@ p {
 
 .main-title {
   font-weight: 700;
-  font-size: 75px;
   letter-spacing: 0.1em;
   color: #3f478d;
-  margin-bottom: 37px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-title {
+    font-size: 75px;
+    margin-bottom: 37px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .main-title {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-title {
+    font-size: 48px;
+    margin-bottom: 23px;
+  }
 }
 
 .date-title {
   font-weight: 700;
-  font-size: 60px;
   letter-spacing: 0.1em;
   color: #4f37b1;
-  margin-bottom: 28px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .date-title {
+    font-size: 60px;
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .date-title {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .date-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .date-title {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
 }
 
 .input-date {
   border: none;
   background: rgba(96, 24, 67, 0.4);
   font-weight: 700;
-  font-size: 70px;
   letter-spacing: 0.1em;
   color: rgba(69, 137, 84, 0.88);
   cursor: pointer;
-  padding: 15px 108px 15px 108px;
-  margin-bottom: 38px;
   font-family: "Montagu Slab", sans-serif;
 }
 
+@media screen and (min-width: 1200px) {
+  .input-date {
+    font-size: 70px;
+    padding: 15px 108px 15px 108px;
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .input-date {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 10px 40px 10px 40px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .input-date {
+    font-size: 28px;
+    margin-bottom: 24px;
+    padding: 13px 43px 13px 43px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .input-date {
+    font-size: 44px;
+    margin-bottom: 25px;
+    padding: 9px 67px 9px 67px;
+  }
+}
+
 .container {
-  max-width: 713px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 10px 0 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 713px;
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .container {
+    max-width: 224px;
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 320px;
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 505px;
+    padding: 0 10px 0 10px;
+  }
 }
 
 body {
@@ -71,102 +178,344 @@ body {
 .table-num {
   border: 1px solid #161a88;
   border-collapse: collapse;
-  margin-bottom: 45px;
+}
+
+@media screen and (min-width: 1200px) {
+  .table-num {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .table-num {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .table-num {
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .table-num {
+    margin-bottom: 25px;
+  }
 }
 
 .cell-one {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
-  padding: 22px 95px 22px 95px;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-one {
+    font-size: 65px;
+    padding: 22px 95px 22px 95px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-one {
+    font-size: 18px;
+    padding: 17px 25px 17px 25px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-one {
+    font-size: 26px;
+    padding: 19px 37px 19px 37px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-one {
+    font-size: 41px;
+    padding: 15px 45px 15px 45px;
+  }
 }
 
 .cell-two {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
-  padding: 22px 70px 22px 70px;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-two {
+    font-size: 65px;
+    padding: 22px 70px 22px 70px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-two {
+    font-size: 18px;
+    padding: 17px 32px 17px 32px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-two {
+    font-size: 26px;
+    padding: 19px 30px 19px 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-two {
+    font-size: 41px;
+    padding: 15px 60px 15px 60px;
+  }
 }
 
 .cell-three {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
-  padding: 22px 95px 22px 95px;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-three {
+    font-size: 65px;
+    padding: 22px 95px 22px 95px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-three {
+    font-size: 18px;
+    padding: 17px 28px 17px 28px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-three {
+    font-size: 26px;
+    padding: 19px 63px 19px 63px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-three {
+    font-size: 41px;
+    padding: 15px 35px 15px 35px;
+  }
 }
 
 .cell-four {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
-  line-height: 111%;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-four {
+    font-size: 65px;
+    line-height: 111%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-four {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+  .cell-four {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-four {
+    font-size: 41px;
+  }
 }
 
 .cell-five {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-five {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-five {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-five {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-five {
+    font-size: 41px;
+  }
 }
 
 .cell-six {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-six {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-six {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-six {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-six {
+    font-size: 41px;
+  }
 }
 
 .cell-seven {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-seven {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-seven {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-seven {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-seven {
+    font-size: 41px;
+  }
 }
 
 .cell-eight {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
 }
 
+@media screen and (min-width: 1200px) {
+  .cell-eight {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-eight {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-eight {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-eight {
+    font-size: 41px;
+  }
+}
+
 .cell-nine {
   border: 1px solid #161a88;
   font-weight: 400;
-  font-size: 65px;
-  line-height: 101%;
   letter-spacing: 0.1em;
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .cell-nine {
+    font-size: 65px;
+    line-height: 101%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cell-nine {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .cell-nine {
+    font-size: 26px;
+    line-height: 101%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .cell-nine {
+    font-size: 41px;
+    line-height: 101%;
+  }
 }
 
 .main-wrapper {
@@ -177,13 +526,42 @@ body {
 
 .button-calc {
   font-weight: 700;
-  font-size: 65px;
   letter-spacing: 0.1em;
   color: #e1d9e7;
-  border-radius: 12px;
   background: rgba(136, 116, 194, 0.64);
   border: none;
   cursor: pointer;
-  padding: 10px 66px 10px 66px;
   font-family: "Montagu Slab", sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+  .button-calc {
+    font-size: 65px;
+    border-radius: 12px;
+    padding: 10px 66px 10px 66px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .button-calc {
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 10px 28px 10px 28px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .button-calc {
+    font-size: 26px;
+    border-radius: 12px;
+    padding: 25px 25px 25px 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .button-calc {
+    font-size: 41px;
+    border-radius: 12px;
+    padding: 21px 48px 21px 48px;
+  }
 }
