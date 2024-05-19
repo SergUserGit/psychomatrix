@@ -215,7 +215,7 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 1500ms;
+  animation-duration: 2500ms;
   animation-name: cellone;
   animation-iteration-count: infinite;
 }
@@ -227,6 +227,14 @@ body {
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #4d7b5c;
+  }
+
+  75% {
+    background-color: #0f5326;
   }
 }
 
@@ -265,18 +273,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 4000ms;
+  animation-duration: 3500ms;
   animation-name: celltwo;
   animation-iteration-count: infinite;
 }
 
 @keyframes celltwo {
   from {
-    background-color: #994584;
+    background-color: #999645;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #c9c308;
+  }
+
+  75% {
+    background-color: #f6ee0c;
   }
 }
 
@@ -315,18 +331,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 3500ms;
+  animation-duration: 2500ms;
   animation-name: cellthree;
   animation-iteration-count: infinite;
 }
 
 @keyframes cellthree {
   from {
-    background-color: #b1ef3d;
+    background-color: #459961;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #4d7b5c;
+  }
+
+  75% {
+    background-color: #0f5326;
   }
 }
 
@@ -365,18 +389,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 4500ms;
+  animation-duration: 3500ms;
   animation-name: cellfour;
   animation-iteration-count: infinite;
 }
 
 @keyframes cellfour {
   from {
-    background-color: #7d0c0f;
+    background-color: #999645;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #c9c308;
+  }
+
+  75% {
+    background-color: #f6ee0c;
   }
 }
 
@@ -413,18 +445,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 2000ms;
+  animation-duration: 2500ms;
   animation-name: cellfive;
   animation-iteration-count: infinite;
 }
 
 @keyframes cellfive {
   from {
-    background-color: rgb(19, 61, 123);
+    background-color: #459961;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #4d7b5c;
+  }
+
+  75% {
+    background-color: #0f5326;
   }
 }
 
@@ -459,18 +499,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 3000ms;
+  animation-duration: 3500ms;
   animation-name: cellsix;
   animation-iteration-count: infinite;
 }
 
 @keyframes cellsix {
   from {
-    background-color: rgb(129, 29, 105);
+    background-color: #999645;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #c9c308;
+  }
+
+  75% {
+    background-color: #f6ee0c;
   }
 }
 
@@ -505,18 +553,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 5000ms;
+  animation-duration: 2500ms;
   animation-name: cellseven;
   animation-iteration-count: infinite;
 }
 
 @keyframes cellseven {
   from {
-    background-color: rgb(52, 150, 37);
+    background-color: #459961;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #4d7b5c;
+  }
+
+  75% {
+    background-color: #0f5326;
   }
 }
 
@@ -551,18 +607,26 @@ body {
   color: rgba(54, 76, 195, 0.9);
   text-align: center;
   font-family: "Lilita One", sans-serif;
-  animation-duration: 5500ms;
+  animation-duration: 3500ms;
   animation-name: celleight;
   animation-iteration-count: infinite;
 }
 
 @keyframes celleight {
   from {
-    background-color: rgb(119, 24, 62);
+    background-color: #999645;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #c9c308;
+  }
+
+  75% {
+    background-color: #f6ee0c;
   }
 }
 
@@ -604,11 +668,19 @@ body {
 
 @keyframes cellnine {
   from {
-    background-color: rgb(175, 111, 137);
+    background-color: #459961;
   }
 
   to {
     border: 1px solid #161a88;
+  }
+
+  50% {
+    background-color: #4d7b5c;
+  }
+
+  75% {
+    background-color: #0f5326;
   }
 }
 
